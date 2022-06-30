@@ -2,7 +2,6 @@ body {
     display: flex;
     min-height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
 .sectone {
@@ -11,12 +10,19 @@ body {
     background-color: #1F2937;
     flex: 1;
     
+    
 }
 
 .header {
     display: flex;
     font-size: 24px;
     color: #F9FAF8;
-    
-    
+    flex: 1;
+}
+
+.headerlinks {
+    display: flex;
+    font: 18px;
+    color: #E5E7EB;
+    gap: 16px;
 }
