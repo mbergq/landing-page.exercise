@@ -26,9 +26,20 @@ body {
     color: #E5E7EB;
     gap: 16px;
     padding-top: 12px;
+    
 }
 .content {
     display: flex;
-    width: 350px;
+    width: 350px; 
     flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.imgbox {
+    background-color: gray;
+}
+
+.contentright {
+    display: flex;
+    flex-basis: 50%;
+    
 }
