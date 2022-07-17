@@ -6,10 +6,13 @@ body {
 
 .sectone {
     display: flex;
-    height: 250px;
+    height: 300px;
     background-color: #1F2937;
     flex: 1;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 12px;
+    padding-bottom: 46px;
 }
 
 .header {
@@ -17,29 +20,53 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     flex: 1;
-    padding-top: 12px;
+    padding-bottom: 60px;
 }
-
+.headertwo {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signup {
+    background-color: #3882f6;
+    color: white;
+    width: 80px;
+    border-radius: 8px;
+    border: none;
+    
+}
 .headerlinks {
     display: flex;
     font: 18px;
     color: #E5E7EB;
     gap: 16px;
-    padding-top: 12px;
+    padding-bottom: 60px;
+    height: fit-content;
     
 }
 .content {
     display: flex;
-    width: 350px; 
     flex-wrap: wrap;
     flex-basis: 50%;
+    max-width: 360px;
 }
 .imgbox {
+    display: flex;
     background-color: gray;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
 }
 
 .contentright {
     display: flex;
     flex-basis: 50%;
+    flex-wrap: wrap;
+    max-width: 360px;
     
 }
