@@ -4,7 +4,7 @@ body {
     margin: 0;
     flex-direction: column;
     overflow-y: auto;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .sectone {
     display: flex;
@@ -77,7 +77,7 @@ body {
 
 .secttwo {
     display: flex;
-    height: 300px;
+    height: 400px;
     flex-grow: 1;
     flex-direction: row;
     flex-wrap: wrap;
@@ -121,7 +121,31 @@ body {
 }
 .sectthree {
     display: flex;
-    height: 300px;
+    height: 450px;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotecont {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.quote {
+    margin-bottom: 12px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.thor {
+    align-self: flex-end;
+    font-weight: bold;
+}
+.sectfour {
+    display: flex;
+    height: 400px;
+    
 }
 
