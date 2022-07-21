@@ -146,6 +146,57 @@ body {
 .sectfour {
     display: flex;
     height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.signupcontainer {
+    display: flex;
+    width: 800px;
+    height: 150px;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+}
+.ctaction {
+    height: fit-content;
+    width: 100%;
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 24px;
+
+
+}
+.signuptext {
+    color: #E5E7EB;
     
 }
+.bcontainer {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.secondbutton {
+    background-color: #3882f6;
+    height: fit-content;
+    color: white;
+    width: 80px;
+    border-radius: 8px;
+    border-color: white;
+    border-style:solid;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footertxt {
+    color: #E5E7EB;
+}
+
 
